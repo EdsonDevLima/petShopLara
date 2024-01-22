@@ -270,8 +270,13 @@ ul{
   
 }
 .item-modal div{
-  width: 40%;
+  min-width: 350px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
+  flex-direction: column;
   padding: 5px;
   color: #0066cc;
   border-radius: 15px;
